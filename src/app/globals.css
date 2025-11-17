@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #0a0a0a;
+        --background: #fff;
         --foreground: #ededed;
     }
 }
@@ -21,8 +21,8 @@ body {
 }
 
 body {
-    color: var(--foreground);
-    background: var(--background);
+    color: black;
+    background: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -43,4 +43,8 @@ a {
     html {
         color-scheme: dark;
     }
+}
+
+input {
+    background: white;
 }

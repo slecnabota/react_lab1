@@ -4,7 +4,7 @@ import { useQuery } from '@tanstack/react-query'
 
 export default function GithubQueryPage() {
   const fetchRepos = async () => {
-    const res = await axios.get('https://api.github.com/search/repositories?q=react')
+    const res = await axios.get('https://api.github.com/search/repositories?q=slecna')
     return res.data.items
   }
 

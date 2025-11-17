@@ -1,4 +1,4 @@
-const cars = ['BMW', 'Toyota', 'Tesla']
+const cars = ['Car1', 'Car2', 'Car3']
 
 export default function CarsList() {
   return (
